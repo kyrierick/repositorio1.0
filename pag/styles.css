@@ -1,0 +1,73 @@
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #fffa;
+    text-shadow: 5px 5px 6px #fff7;
+    text-decoration: underline;
+}
+
+.p-first {
+    font-weight: 800;
+    font-family: Georgia;
+    margin: 5% 5%;
+}
+
+h2 {
+    color: #fffa;
+    text-shadow: 2px 2px 5px #fff7;
+}
+
+.text-1 {
+    border: 7px solid #fff;
+    margin: #fff;
+    padding: 0 5%;
+    margin: 0 5%;
+}
+
+.p-1 {
+    text-shadow: 0 1px 10px#fffb;
+}
+
+.img-1 { 
+    background: url(https://imgs.search.brave.com/adA34BZ-ldn4FFVirJ87IENGfqX0HOhtXd6caZUznUo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/YnRvLm9yZy9zaXRl/cy9kZWZhdWx0L2Zp/bGVzL2JpcmRmYWN0/cy8wMDI2Ml9SYXpv/cmJpbGxfU2FyYWgl/MjBLZWxtYW4uanBn) 300px 300px / cover fixed #e2e2e2;
+    border-radius: 25px;
+    box-shadow: 0 0px 70px 15px #fff;
+    margin: 5% 20%;
+    border: 10px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+
+.opaco-1 {
+    background-color: #000b;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.text-description {
+    color: #fffd
+}
+
+.li-1 {
+    color: #fffd;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Georgia;
+    text-align: left;
+    padding: 0 17%;
+}
+
+.link-presentacion {
+    border-radius: 4px;
+    border-style: groove;
+    color: #00f;
+    border: 10px 10px 10px 10px;
+    background: 0% / 0% repeat scroll #fff;
+    box-shadow: 0 0 40px 10px #00f;
+    margin: 0 40%
+}

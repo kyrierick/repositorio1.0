@@ -1,0 +1,74 @@
+body {
+    background-color: #48e;
+    margin: auto;
+    font-family: sans-serif;
+    color: #fff;
+    padding: 1%;
+}
+
+.h2_1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 4px 6px #333;
+    padding-top: 5%;
+    font-size: 35px;
+}
+
+.box_img {
+    background: url(../img/Dalto.png) 100% / cover #f51;
+    width: 80%;
+    height: 80%;
+    margin: 20px; 
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 0 0 80px 100px #0007;
+    background-position: center top 10px;
+} 
+
+.img_1 {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnojIwb7aOMVMx8zVQNNgmnbrKuyEBi9HLHfDLSBKUYQIlPO8jpLaAwrK62UVMrCAjwIw&usqp=CAU) 300px 400px / cover fixed #fff;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 10px 10%;
+    box-shadow: 0 0 25px 0 #fffc;
+    border-radius: 20px;
+}
+
+.h2_2{
+    text-align: center;
+}
+
+.p_2 {
+    text-align: center;
+}
+
+.opaco2 {
+    background-color: #000a;
+    padding: 5px 0;
+    border-radius: 20px;
+}
+
+.opaco {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #000a;
+}
+
+.lorem1{
+    padding: 10px 20% 0 20%;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.lorem2{
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 10%;
+    letter-spacing: 2px;
+    padding-top: 1px;
+    text-align: center;
+}

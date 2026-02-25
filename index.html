@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>InkArt Studio</title>
+
+<style>
+    body{
+        margin:0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient( #ff0055, #222);
+        color:white;
+    }
+
+    header{
+        background:#000;
+        padding:20px;
+        text-align:center;
+        font-size:28px;
+        letter-spacing:2px;
+    }
+
+    nav{
+        text-align:center;
+        padding:10px;
+        background:rgba(0, 0, 0, .78);
+        position: sticky;
+        top: 0;
+        padding: 20px 10px;
+    }
+
+    nav a{
+        color:white;
+        margin:0 15px;
+        text-decoration:none;
+        font-weight:bold;
+    }
+
+    nav a:hover{
+        color:#ff2e63;
+    }
+
+    section{
+        padding:40px;
+        text-align:center;
+    }
+
+    .gallery{
+        display:grid;
+        grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+        gap:20px;
+        padding:20px;
+    }
+
+    .card{
+        background:#222;
+        padding:15px;
+        border-radius:10px;
+        transition:0.3s;
+    }
+
+    .card:hover{
+        transform:scale(1.05);
+        background:#333;
+    }
+
+    button{
+        padding:10px 20px;
+        background:#ff2e63;
+        border:none;
+        color:white;
+        border-radius:5px;
+        cursor:pointer;
+        margin-top:15px;
+    }
+
+    button:hover{
+        background:#ff0055;
+    }
+
+    footer{
+        background:black;
+        text-align:center;
+        padding:15px;
+        margin-top:30px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    INKART STUDIO
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+    <h2>Arte en la piel</h2>
+    <p>Diseños personalizados, minimalistas, realismo y más.</p>
+    <button onclick="mostrarMensaje()">Agendar Cita</button>
+</section>
+
+<section id="galeria">
+    <h2>Nuestros Estilos</h2>
+    <div class="gallery">
+        <div class="card">
+            <h3>Minimalista</h3>
+            <p>Líneas finas y elegantes.</p>
+        </div>
+        <div class="card">
+            <h3>Realismo</h3>
+            <p>Retratos y detalles increíbles.</p>
+        </div>
+        <div class="card">
+            <h3>Tradicional</h3>
+            <p>Colores sólidos y estilo clásico.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: contacto@inkart.com</p>
+    <p>Tel: 55 1234 5678</p>
+</section>
+
+<footer>
+    © 2026 InkArt Studio
+</footer>
+
+<script>
+    function mostrarMensaje(){
+        alert("Gracias por tu interés. Te contactaremos pronto para tu cita.");
+    }
+</script>
+
+</body>
+</html>
